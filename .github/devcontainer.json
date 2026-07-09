@@ -1,0 +1,12 @@
+{
+  "name": "Sraghna Media",
+  "image": "mcr.microsoft.com/devcontainers/python:3.10",
+  "postCreateCommand": "pip install streamlit",
+  "forwardPorts": [8501],
+  "portsAttributes": {
+    "8501": {
+      "label": "Sraghna Media Site",
+      "onAutoForward": "openBrowser"
+    }
+  }
+}
